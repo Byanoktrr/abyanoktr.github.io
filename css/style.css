@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: #31087B;
+    box-shadow: 0 0 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 175px;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+}
+
+.logo h3{
+    color: #FFC600;
+    width: 100%;
+    font-family: system-ui;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FFC600;
+}
+
+ul li a:hover{
+    color: #ffffff;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 175px;
+    height: 680px;
+    /* background-color: black; */
+}
+
+.content-text{
+    margin-top: 180px;
+}
+
+.content-text h1{
+    color: #31087B;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.content-text p{
+    width: 32rem;
+    color: #000000;
+    font-size: 18px;
+}
+
+.button{
+    margin-top: 25px;
+}
+
+.btn{
+    background-color: #31087B;
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+.foto-img{
+    width: 22rem;
+    margin-top: 80px;
+    margin-left: 30px   ;
+}
+
+.foto-img img{
+    width: 100%;
+    border-radius: 30px;
+    border-color: #31087B;
+    border-style: solid;
+}
+
+.container-me{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 175;
+    padding: 200px; 
+}
+
+.container-me img{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 30px;
+    border-color: #31087B;
+    border-style: solid;
+}
+
+.content-text2{
+    margin-top: 150px
+}
+
+.content-text2 h1{
+    margin: 20px;
+}
+
+.content-text2 p{
+    margin: 20px;
+}
+
+.container-about{
+    height: 600px;
+    padding: 100px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.container-about h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+}
+
+.card{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+.card-body{
+    margin: auto;
+    width: 20rem;
+    /* background-color: #FFC600; */
+    padding: 20px 15px;
+    border-radius: 5px;
+    height: 20rem;
+    box-shadow: 0 0 10px #000000;
+
+}
+
+.card-body img{
+    width: 100%;
+    padding-top: 30px;
+    transition: 0.3s;
+}
+
+.card-body img:hover{
+    transition: 0.3s;
+    width: 105%;
+}
+
+.container-about2{
+    height: 600px;
+    padding: 100px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.container-about2 h1{
+    display: flex;
+    text-decoration: underline;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.card2{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+.card-body2{
+    margin: auto;
+    width: 20rem;
+    /* background-color: #FFC600; */
+    padding: 20px 15px;
+    border-radius: 5px;
+    height: 20rem;
+    box-shadow: 0 0 10px #000000;
+}
+
+.card-body2 img{
+    width: 100%;
+    padding-top: 30px;
+    transition: 0.3s;
+}
+
+.card-body2 img:hover{
+    transition: 0.3s;
+    width: 105%;
+}
+
+
+.container-footer{
+    display: flex;
+    background-color: #31087B;
+    justify-content: center;
+}
+
+.text-contact h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 20px;
+    padding-top: px;
+}
+
+.container-contact{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 100px;
+
+}
+
+.container-contact img{
+    flex-wrap: wrap;
+    height: 50px;   
+}
+
+.text-contact{
+    padding-top: 150px;
+}
+
+.card-contact{
+    margin: 20px;
+}
+
+.logo h4{
+    color: #FFC600;
+    width: 100%;
+    font-family: system-ui;
+    padding: 30px;
+}
+
+.container-footer p{
+    
+    justify-content: center;
+    color: #FFC600;
+    margin: 0 175;
+}
+
+#about{
+    padding-top: px;
+}
+
+
+#sertifikat{
+    padding: 80px;
+}
